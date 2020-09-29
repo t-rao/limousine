@@ -267,6 +267,544 @@ select {
     width: 100%;
     height: 100vh;
     background-image: url(../images/Image_3.png), url(../images/Group_88.png);
+    background-position: 0px 400px, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+  }
+
+  .inner_hero-sec {
+    margin: 0 auto;
+  }
+
+  .inner_hero-sec h2 {
+    font-family: "NotosansB" !important;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 150%;
+    box-sizing: border-box;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+  }
+
+  .call-action-02 {
+    background-color: rgba(0, 0, 0, 0.761);
+    position: relative;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: inline-block;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-top: 210px;
+  }
+
+  .inner_call_action-02 {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .inner_call_action-02 ul {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 15px;
+  }
+
+  .action_button2 {
+    width: 100% !important;
+    text-align: center;
+    background-color: #c5a364;
+    padding: 13px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: "NotosansM";
+    font-size: 12px;
+    color: white;
+    border-radius: 2px;
+  }
+
+  .ghost_btn {
+    background-color: transparent;
+    text-align: center;
+    /* background-color: #C5A364; */
+    padding: 8px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: "NotosansM";
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    border-color: white;
+  }
+
+  /* Section -02 */
+
+  .gallery {
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
+  }
+
+  .inner_gallery {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .sec-title {
+    text-align: center;
+  }
+
+  .sec-title h3 {
+    font-family: "NotoserifSB";
+    color: #c5a364;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 20px;
+  }
+
+  .sec-title p {
+    font-family: "Yu Gothic";
+    color: white;
+    font-size: 12px;
+    line-height: 150%;
+    /* margin-top: 40px; */
+    width: 95%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+  }
+
+  .gallery-pic {
+    padding-bottom: 40px;
+    height: auto;
+  }
+
+  .gallery-pic ul {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 15% 15% 15%;
+    grid-gap: 15px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .img-01 {
+    grid-column-start: span 2;
+  }
+
+  .gallery-pic ul li img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+
+  .img-01 > img {
+    /* object-fit: cover !important; */
+    max-width: 100% !important;
+    max-height: 100% !important;
+  }
+
+  .gallery-pic p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: "Yu Gothic";
+    font-size: 14px;
+    line-height: 150%;
+    /* margin-top: 10px; */
+  }
+
+  .price_list {
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .inner_price_list {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .price_table {
+    min-width: 95%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    font-family: "Yu Gothic";
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .price_table tr {
+    margin-bottom: 20px;
+  }
+
+  .price_table tr td {
+    padding: 10px;
+  }
+
+  .price_table tr td:first-child {
+    background-color: #7c7c7c;
+    color: white;
+    text-align: left;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+  }
+
+  .price_table tr td:nth-child(2) {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .price_table tr td:nth-child(3) {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .price_list p {
+    width: 95%;
+    margin: 0 auto;
+    font-family: "Yu Gothic";
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    /* padding-left: 15px; */
+  }
+
+  .price_list h4 {
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+    /* padding-left: 15px; */
+  }
+
+  .price_list ul {
+    font-family: "Yu Gothic";
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+    /* padding-left: 15px; */
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .price_list ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .pic-vehicle {
+    max-width: 95%;
+    margin: 0 auto;
+    height: auto;
+    box-sizing: border-box;
+    /* padding-bottom: 80px; */
+  }
+  .pic-vehicle h3 {
+    font-family: "Yu Gothic";
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .vehical_grid {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px 130px;
+    grid-gap: 15px;
+  }
+  .vehical_grid img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .vehicle-type_p {
+    max-width: 95%;
+    margin: 0 auto;
+    color: white;
+    line-height: 130%;
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .c-voice {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .inner-c-voice {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .c-voice {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .inner-c-voice .sec-title {
+    margin-bottom: 30px;
+  }
+  .voice-grid {
+    width: 100%;
+    height: 560px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* margin-top: 60px; */
+    padding-bottom: 40px;
+    grid-gap: 20px;
+  }
+  .voice-grid h4 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .pic_customer img {
+    /* height: 200px; */
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .v-btn {
+    width: 90px;
+    background-color: #cc298d;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    color: white;
+    margin-right: 40px;
+  }
+
+  .voice-grid p {
+    color: white;
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 40px;
+  }
+  .profile {
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 90px;
+    margin-top: 40px;
+  }
+  .inner_profile {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  .profile_grid {
+    margin-top: 30px;
+    height: 650px;
+  }
+  .profile_grid ul {
+    color: white;
+  }
+  .profile_grid ul li {
+    margin-bottom: 20px;
+  }
+  .profile_grid {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .profile_grid h4 {
+    font-size: 18px;
+    font-family: "Yu Gothic";
+  }
+  .profile_grid p {
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .profile_grid img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .limou_pic {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .tel_container {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-top: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .tel_container h3 {
+    font-size: 16px;
+    font-family: "Yu Gothic";
+    color: white;
+  }
+  .tel_container p {
+    font-size: 40px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    margin: 20px auto;
+    color: white;
+  }
+
+  .contact {
+    box-sizing: border-box;
+    padding-bottom: 40px;
+  }
+  .inner_contact {
+    width: 95%;
+    margin: 0 auto;
+  }
+  form {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+  .row-01,
+  .row-02,
+  .row-03,
+  .row-04 {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-rows: 10% 60%;
+    grid-row-gap: 15px;
+  }
+  label {
+    color: white;
+    padding-left: 5px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  input {
+    width: 100%;
+    height: 40px;
+  }
+  textarea {
+    width: 100%;
+    height: 200px;
+  }
+  .row-04 {
+    margin-bottom: 20px;
+  }
+  .submit_btn {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #c17d0f, #f9c75b);
+    border: none;
+    padding: 10px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+  }
+  .price_table tr th {
+    color: white;
+    font-size: 16px;
+  }
+  .faq-inner {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .banner-01,
+  .banner-02 {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 24px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .banner-01 > h4,
+  .banner-02 > h4 {
+    font-family: "Yu Gothic";
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .banner-01 > p,
+  .banner-02 > p {
+    font-family: "Yu Gothic";
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 60px;
+    background-color: #19171a;
+  }
+
+  .inner-header {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  header h1 {
+    font-size: 18px;
+    color: #dbc8a7;
+    padding-top: 20px;
+    /* font-family: "Noto"; */
+    font-family: "NotosansR" !important;
+  }
+
+  .contact-info {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .action_button {
+    width: 100% !important;
+    text-align: center;
+    background-color: #c5a364;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: "NotosansR";
+    font-size: 14px;
+    color: white;
+    border-radius: 2px;
+  }
+
+  .tele {
+    font-family: "NotosansB" !important;
+    color: white;
+    font-size: 16px;
+    /* grid-row-start: 1; */
+  }
+  .hero_sec {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Image_3.png), url(../images/Group_88.png);
     background-position: 0px 409px, center;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, cover;
@@ -379,8 +917,7 @@ select {
   }
 
   .gallery-pic {
-    max-width: 1140px;
-    padding-bottom: 90px;
+    padding-bottom: 40px;
     height: auto;
   }
 
@@ -426,7 +963,7 @@ select {
     height: auto;
     box-sizing: border-box;
     padding-top: 20px;
-    padding-bottom: 90px;
+    padding-bottom: 40px;
   }
 
   .inner_price_list {
@@ -458,6 +995,8 @@ select {
     background-color: #7c7c7c;
     color: white;
     text-align: left;
+    font-family: "Yu Gothic";
+    font-weight: bold;
   }
 
   .price_table tr td:nth-child(2) {
@@ -481,6 +1020,7 @@ select {
     color: white;
     margin-bottom: 40px;
     margin-top: 20px;
+    font-size: 14px;
     /* padding-left: 15px; */
   }
 
@@ -536,12 +1076,746 @@ select {
     width: 100%;
     max-height: 100%;
   }
-}
+  .vehicle-type_p {
+    max-width: 95%;
+    margin: 0 auto;
+    color: white;
+    line-height: 130%;
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    margin-top: 20px;
+  }
 
-@media screen and (min-width: 501px) and (max-width: 768px) {
+  .c-voice {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .inner-c-voice {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .c-voice {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .inner-c-voice .sec-title {
+    margin-bottom: 30px;
+  }
+  .voice-grid {
+    width: 100%;
+    height: 560px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* margin-top: 60px; */
+    padding-bottom: 40px;
+    grid-gap: 20px;
+  }
+  .voice-grid h4 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .pic_customer img {
+    /* height: 200px; */
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .v-btn {
+    width: 90px;
+    background-color: #cc298d;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    color: white;
+    margin-right: 40px;
+  }
+
+  .voice-grid p {
+    color: white;
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 40px;
+  }
+  .profile {
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 90px;
+    margin-top: 40px;
+  }
+  .inner_profile {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  .profile_grid {
+    margin-top: 30px;
+    height: 650px;
+  }
+  .profile_grid ul {
+    color: white;
+  }
+  .profile_grid ul li {
+    margin-bottom: 20px;
+  }
+  .profile_grid {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .profile_grid h4 {
+    font-size: 18px;
+    font-family: "Yu Gothic";
+  }
+  .profile_grid p {
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .profile_grid img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .limou_pic {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .tel_container {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-top: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .tel_container h3 {
+    font-size: 16px;
+    font-family: "Yu Gothic";
+    color: white;
+  }
+  .tel_container p {
+    font-size: 40px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    margin: 20px auto;
+    color: white;
+  }
+
+  .contact {
+    box-sizing: border-box;
+    padding-bottom: 40px;
+  }
+  .inner_contact {
+    width: 95%;
+    margin: 0 auto;
+  }
+  form {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+  .row-01,
+  .row-02,
+  .row-03,
+  .row-04 {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-rows: 10% 60%;
+    grid-row-gap: 15px;
+  }
+  label {
+    color: white;
+    padding-left: 5px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  input {
+    width: 100%;
+    height: 40px;
+  }
+  textarea {
+    width: 100%;
+    height: 200px;
+  }
+  .row-04 {
+    margin-bottom: 20px;
+  }
+  .submit_btn {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #c17d0f, #f9c75b);
+    border: none;
+    padding: 10px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+  }
+  .price_table tr th {
+    color: white;
+    font-size: 16px;
+  }
+  .faq-inner {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .banner-01,
+  .banner-02 {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 24px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .banner-01 > h4,
+  .banner-02 > h4 {
+    font-family: "Yu Gothic";
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .banner-01 > p,
+  .banner-02 > p {
+    font-family: "Yu Gothic";
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
+  header {
+    width: 100%;
+    height: 60px;
+    background-color: #19171a;
+  }
+
+  .inner-header {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  header h1 {
+    font-size: 24px;
+    color: #dbc8a7;
+    padding-top: 15px;
+    /* font-family: "Noto"; */
+    font-family: "NotosansR" !important;
+  }
+
+  .contact-info {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* grid-row-gap: 1px; */
+    grid-column-gap: 20px;
+  }
+
+  .action_button {
+    width: 100% !important;
+    text-align: center;
+    background-color: #c5a364;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: "NotosansM";
+    font-size: 14px;
+    color: white;
+    border-radius: 2px;
+  }
+
+  .tele {
+    font-family: "NotosansB" !important;
+    color: white;
+    font-size: 24px;
+  }
+
+  .hero_sec {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/hero_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .inner_hero-sec {
+    margin: 0 auto;
+  }
+
+  .inner_hero-sec h2 {
+    font-family: "NotosansB" !important;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    line-height: 150%;
+    box-sizing: border-box;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+  }
+
+  .call-action-02 {
+    background-color: rgba(0, 0, 0, 0.761);
+    position: relative;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: inline-block;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-top: 210px;
+  }
+
+  .inner_call_action-02 {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .inner_call_action-02 ul {
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+  }
+
+  .action_button2 {
+    width: 100% !important;
+    text-align: center;
+    background-color: #c5a364;
+    padding: 13px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: "NotosansM";
+    font-size: 14px;
+    color: white;
+    border-radius: 2px;
+  }
+
+  .ghost_btn {
+    background-color: transparent;
+    text-align: center;
+    /* background-color: #C5A364; */
+    padding: 8px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: "NotosansM";
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    border-color: white;
+  }
+
+  /* Section -02 */
+
+  .gallery {
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 40px;
+  }
+
+  .inner_gallery {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .sec-title {
+    text-align: center;
+  }
+
+  .sec-title h3 {
+    font-family: "NotoserifSB";
+    color: #c5a364;
+    font-size: 28px;
+    line-height: 150%;
+    margin-bottom: 20px;
+  }
+
+  .sec-title p {
+    font-family: "Yu Gothic";
+    color: white;
+    font-size: 16px;
+    line-height: 150%;
+    /* margin-top: 40px; */
+    width: 600px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+  }
+
+  .gallery-pic {
+    max-width: 1140px;
+    margin-top: 20px;
+    padding-bottom: 90px;
+  }
+
+  .gallery-pic ul {
+    max-width: 1140px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    grid-template-rows: 30% 30% 30%;
+    grid-gap: 15px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .img-01 {
+    grid-row: 1 / 4;
+  }
+
+  .gallery-pic ul li img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+
+  .img-01 > img {
+    /* object-fit: cover !important; */
+    max-width: 100% !important;
+    max-height: 100% !important;
+  }
+
+  .gallery-pic p {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: "Yu Gothic";
+    /* margin-top: 10px; */
+  }
+
+  .price_list {
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 90px;
+  }
+
+  .inner_price_list {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .price_table {
+    min-width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    font-family: "Yu Gothic";
+    font-weight: 500;
+  }
+
+  .price_table tr {
+    margin-bottom: 20px;
+  }
+
+  .price_table tr td {
+    padding: 20px;
+  }
+  .price_table tr th {
+    color: white;
+    font-size: 18px;
+  }
+  .price_table tr td:first-child {
+    background-color: #7c7c7c;
+    color: white;
+    text-align: left;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+  }
+
+  .price_table tr td:nth-child(2) {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+  }
+
+  .price_table tr td:nth-child(3) {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .price_list p {
+    font-family: "Yu Gothic";
+    color: white;
+    margin-bottom: 40px;
+    padding-left: 15px;
+  }
+
+  .price_list h4 {
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+  }
+
+  .price_list ul {
+    font-family: "Yu Gothic";
+    color: white;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .price_list ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .pic-vehicle {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: auto;
+    box-sizing: border-box;
+    /* padding-bottom: ; */
+  }
+  .pic-vehicle h3 {
+    font-family: "Yu Gothic";
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .pb60 {
+    padding-bottom: 60px;
+  }
+  .pb40 {
+    padding-bottom: 40px;
+  }
+  .mb40 {
+    margin-bottom: 40px;
+  }
+  .mt20 {
+    margin-top: 20px;
+  }
+  .vehicle-type {
+    padding-bottom: 80px;
+  }
+
+  .vehical_grid {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-gap: 15px;
+  }
+  .vehical_grid img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .vehicle-type_p {
+    max-width: 1140px;
+    margin: 0 auto;
+    color: white;
+    line-height: 130%;
+    font-family: "Yu Gothic";
+    font-size: 16px;
+  }
+
+  .faq-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+
+  .banner-01,
+  .banner-02 {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 32px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .banner-01 > h4,
+  .banner-02 > h4 {
+    font-family: "Yu Gothic";
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .banner-01 > p,
+  .banner-02 > p {
+    font-family: "Yu Gothic";
+    font-size: 16px;
+  }
+  .contact {
+    box-sizing: border-box;
+    padding-bottom: 80px;
+  }
+  .inner_contact {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  form {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .row-01,
+  .row-02,
+  .row-03,
+  .row-04 {
+    /* margin-bottom: 20px; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  label {
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  input {
+    width: 100%;
+    height: 40px;
+  }
+  textarea {
+    width: 100%;
+    height: 200px;
+  }
+  .row-04 {
+    margin-bottom: 20px;
+  }
+  .submit_btn {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #c17d0f, #f9c75b);
+    border: none;
+    padding: 10px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+  }
+  .tel_container {
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-top: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .tel_container h3 {
+    font-size: 18px;
+    font-family: "Yu Gothic";
+    color: white;
+  }
+  .tel_container p {
+    font-size: 60px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    margin: 20px auto;
+    color: white;
+  }
+
+  .profile {
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 90px;
+  }
+  .inner_profile {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .profile_grid {
+    margin-top: 60px;
+  }
+  .profile_grid ul {
+    color: white;
+  }
+  .profile_grid ul li {
+    margin-bottom: 20px;
+  }
+  .profile_grid {
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .profile_grid h4 {
+    font-size: 18px;
+    font-family: "Yu Gothic";
+  }
+  .profile_grid p {
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .profile_grid img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .c-voice {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .inner-c-voice {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .c-voice {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .voice-grid {
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+    grid-gap: 20px;
+  }
+  .voice-grid h4 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .pic_customer img {
+    /* height: 200px; */
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .v-btn {
+    width: 90px;
+    background-color: #cc298d;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    color: white;
+    margin-right: 40px;
+  }
+
+  .voice-grid p {
+    color: white;
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 40px;
+  }
 }
 
 @media screen and (min-width: 1201px) {
@@ -780,17 +2054,23 @@ select {
   .price_table tr td {
     padding: 20px;
   }
-
+  .price_table tr th {
+    color: white;
+    font-size: 18px;
+  }
   .price_table tr td:first-child {
     background-color: #7c7c7c;
     color: white;
     text-align: left;
+    font-family: "Yu Gothic";
+    font-weight: bold;
   }
 
   .price_table tr td:nth-child(2) {
     background-color: white;
     color: black;
     text-align: center;
+    font-family: "Yu Gothic";
     font-weight: bold;
   }
 
@@ -833,7 +2113,7 @@ select {
     margin: 0 auto;
     height: auto;
     box-sizing: border-box;
-    padding-bottom: 80px;
+    /* padding-bottom: ; */
   }
   .pic-vehicle h3 {
     font-family: "Yu Gothic";
@@ -842,6 +2122,21 @@ select {
     margin-top: 30px;
     margin-bottom: 20px;
     color: white;
+  }
+  .pb60 {
+    padding-bottom: 60px;
+  }
+  .pb40 {
+    padding-bottom: 40px;
+  }
+  .mb40 {
+    margin-bottom: 40px;
+  }
+  .mt20 {
+    margin-top: 20px;
+  }
+  .vehicle-type {
+    padding-bottom: 80px;
   }
 
   .vehical_grid {
@@ -856,5 +2151,196 @@ select {
     object-fit: cover;
     width: 100%;
     max-height: 100%;
+  }
+  .vehicle-type_p {
+    max-width: 1140px;
+    margin: 0 auto;
+    color: white;
+    line-height: 130%;
+    font-family: "Yu Gothic";
+    font-size: 16px;
+  }
+
+  .faq-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+
+  .banner-01,
+  .banner-02 {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 32px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .banner-01 > h4,
+  .banner-02 > h4 {
+    font-family: "Yu Gothic";
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .banner-01 > p,
+  .banner-02 > p {
+    font-family: "Yu Gothic";
+    font-size: 16px;
+  }
+  .contact {
+    box-sizing: border-box;
+    padding-bottom: 80px;
+  }
+  .inner_contact {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  form {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .row-01,
+  .row-02,
+  .row-03,
+  .row-04 {
+    /* margin-bottom: 20px; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  label {
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  input {
+    width: 100%;
+    height: 40px;
+  }
+  textarea {
+    width: 100%;
+    height: 200px;
+  }
+  .row-04 {
+    margin-bottom: 20px;
+  }
+  .submit_btn {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #c17d0f, #f9c75b);
+    border: none;
+    padding: 10px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+  }
+  .tel_container {
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-top: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .tel_container h3 {
+    font-size: 18px;
+    font-family: "Yu Gothic";
+    color: white;
+  }
+  .tel_container p {
+    font-size: 60px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    margin: 20px auto;
+    color: white;
+  }
+
+  .profile {
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 90px;
+  }
+  .inner_profile {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .profile_grid {
+    margin-top: 60px;
+  }
+  .profile_grid ul {
+    color: white;
+  }
+  .profile_grid ul li {
+    margin-bottom: 20px;
+  }
+  .profile_grid {
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .profile_grid h4 {
+    font-size: 18px;
+    font-family: "Yu Gothic";
+  }
+  .profile_grid p {
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .profile_grid img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .c-voice {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .inner-c-voice {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .c-voice {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .voice-grid {
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+    grid-gap: 20px;
+  }
+  .voice-grid h4 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .pic_customer img {
+    /* height: 200px; */
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .v-btn {
+    width: 90px;
+    background-color: #cc298d;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    color: white;
+    margin-right: 40px;
+  }
+
+  .voice-grid p {
+    color: white;
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 40px;
   }
 }
