@@ -347,7 +347,7 @@ select {
   .gallery {
     height: auto;
     box-sizing: border-box;
-    padding-top: 20px;
+    padding-top: 40px;
   }
 
   .inner_gallery {
@@ -370,7 +370,7 @@ select {
   .sec-title p {
     font-family: "Yu Gothic";
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 150%;
     /* margin-top: 40px; */
     width: 95%;
@@ -434,7 +434,7 @@ select {
   }
 
   .price_table {
-    min-width: 95%;
+    min-width: 100%;
     max-width: 100%;
     margin: 0 auto;
     margin-top: 20px;
@@ -550,16 +550,13 @@ select {
 
   .c-voice {
     height: auto;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
   .inner-c-voice {
     width: 95%;
     margin: 0 auto;
   }
-  .c-voice {
-    height: auto;
-    padding-bottom: 80px;
-  }
+
   .inner-c-voice .sec-title {
     margin-bottom: 30px;
   }
@@ -580,7 +577,7 @@ select {
     /* height: 200px; */
     object-fit: cover;
     width: 100%;
-    max-height: 100%;
+    height: 100%;
   }
   .v-btn {
     width: 90px;
@@ -625,6 +622,7 @@ select {
     width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-row-gap: 20px;
   }
   .profile_grid h4 {
     font-size: 18px;
@@ -777,9 +775,10 @@ select {
   }
 
   .contact-info {
-    padding-top: 10px;
+    padding-top: 15px;
     display: grid;
     grid-template-columns: 40% 60%;
+    grid-column-gap: 10px;
   }
 
   .action_button {
@@ -798,14 +797,15 @@ select {
   .tele {
     font-family: "NotosansB" !important;
     color: white;
-    font-size: 16px;
+    font-size: 24px;
+    padding-top: 2px;
     /* grid-row-start: 1; */
   }
   .hero_sec {
     width: 100%;
     height: 100vh;
     background-image: url(../images/Image_3.png), url(../images/Group_88.png);
-    background-position: 0px 409px, center;
+    background-position: 0px 359px, center;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, cover;
   }
@@ -817,7 +817,7 @@ select {
   .inner_hero-sec h2 {
     font-family: "NotosansB" !important;
     color: white;
-    font-size: 22px;
+    font-size: 45px;
     text-align: center;
     line-height: 150%;
     box-sizing: border-box;
@@ -841,7 +841,7 @@ select {
   }
 
   .inner_call_action-02 {
-    max-width: 95%;
+    max-width: 50%;
     margin: 0 auto;
   }
 
@@ -908,7 +908,7 @@ select {
   .sec-title p {
     font-family: "Yu Gothic";
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 150%;
     /* margin-top: 40px; */
     width: 95%;
@@ -922,24 +922,25 @@ select {
   }
 
   .gallery-pic ul {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
+    overflow: hidden;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 40% 15% 15% 15%;
+    grid-template-columns: 60% 20% 20%;
+    grid-template-rows: 30% 30% 30%;
     grid-gap: 15px;
     justify-content: center;
     align-content: center;
   }
 
   .img-01 {
-    grid-column-start: span 2;
+    grid-row: 1 / 4;
   }
 
   .gallery-pic ul li img {
     object-fit: cover;
-    width: 100%;
-    max-height: 100%;
+    max-width: 100% !important;
+    max-height: 100% !important;
   }
 
   .img-01 > img {
@@ -1103,16 +1104,16 @@ select {
   }
   .voice-grid {
     width: 100%;
-    height: 560px;
+    height: auto;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     /* margin-top: 60px; */
     padding-bottom: 40px;
     grid-gap: 20px;
   }
   .voice-grid h4 {
     color: white;
-    margin-bottom: 20px;
+    /* margin-bottom: 15px; */
   }
   .pic_customer img {
     /* height: 200px; */
@@ -1137,7 +1138,7 @@ select {
     font-family: "Yu Gothic";
     font-size: 16px;
     line-height: 150%;
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .profile {
     height: auto;
@@ -1151,7 +1152,7 @@ select {
   }
   .profile_grid {
     margin-top: 30px;
-    height: 650px;
+    height: auto;
   }
   .profile_grid ul {
     color: white;
@@ -1162,7 +1163,7 @@ select {
   .profile_grid {
     width: 100%;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .profile_grid h4 {
     font-size: 18px;
@@ -1177,10 +1178,6 @@ select {
     object-fit: cover;
     width: 100%;
     max-height: 100%;
-  }
-  .limou_pic {
-    grid-row-start: 1;
-    grid-row-end: 1;
   }
 
   .tel_container {
@@ -1226,7 +1223,7 @@ select {
   .row-04 {
     margin-bottom: 20px;
     display: grid;
-    grid-template-rows: 10% 60%;
+    grid-template-columns: 40% 60%;
     grid-row-gap: 15px;
   }
   label {
@@ -1248,7 +1245,7 @@ select {
     margin-bottom: 20px;
   }
   .submit_btn {
-    width: 100%;
+    width: 60%;
     display: block;
     margin: 0 auto;
     background-image: linear-gradient(to right, #c17d0f, #f9c75b);
@@ -1299,7 +1296,7 @@ select {
   }
 
   .inner-header {
-    max-width: 1140px;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -1338,7 +1335,7 @@ select {
   .tele {
     font-family: "NotosansB" !important;
     color: white;
-    font-size: 24px;
+    font-size: 23px;
   }
 
   .hero_sec {
@@ -1381,7 +1378,7 @@ select {
   }
 
   .inner_call_action-02 {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
   }
 
@@ -1429,7 +1426,7 @@ select {
   }
 
   .inner_gallery {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
   }
 
@@ -1457,13 +1454,13 @@ select {
   }
 
   .gallery-pic {
-    max-width: 1140px;
+    max-width: 960px;
     margin-top: 20px;
     padding-bottom: 90px;
   }
 
   .gallery-pic ul {
-    max-width: 1140px;
+    max-width: 960px;
     overflow: hidden;
     display: grid;
     grid-template-columns: 60% 20% 20%;
@@ -1505,13 +1502,13 @@ select {
   }
 
   .inner_price_list {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
   }
 
   .price_table {
     min-width: 100%;
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
     margin-top: 20px;
     border-collapse: separate;
@@ -1582,7 +1579,7 @@ select {
   }
 
   .pic-vehicle {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
     height: auto;
     box-sizing: border-box;
@@ -1613,7 +1610,7 @@ select {
   }
 
   .vehical_grid {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1626,7 +1623,7 @@ select {
     max-height: 100%;
   }
   .vehicle-type_p {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
     color: white;
     line-height: 130%;
@@ -1635,7 +1632,7 @@ select {
   }
 
   .faq-inner {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
     padding-bottom: 80px;
   }
@@ -1664,11 +1661,11 @@ select {
     padding-bottom: 80px;
   }
   .inner_contact {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
   }
   form {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
   }
   .row-01,
@@ -1709,7 +1706,7 @@ select {
     font-size: 16px;
   }
   .tel_container {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
     border: 1px solid white;
     margin-top: 60px;
@@ -1737,7 +1734,7 @@ select {
     padding-bottom: 90px;
   }
   .inner_profile {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
   }
   .profile_grid {
@@ -1750,7 +1747,7 @@ select {
     margin-bottom: 20px;
   }
   .profile_grid {
-    max-width: 1140px;
+    max-width: 960px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -1773,7 +1770,7 @@ select {
     padding-bottom: 80px;
   }
   .inner-c-voice {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
   }
   .c-voice {
@@ -1781,7 +1778,7 @@ select {
     padding-bottom: 80px;
   }
   .voice-grid {
-    max-width: 1140px;
+    max-width: 960px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 60px;
